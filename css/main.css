@@ -1,0 +1,113 @@
+.clear{clear:both;}
+.left{float:left;}
+.right{float:right;}
+#main-react{
+	min-height: 500px;
+	width: 350px;
+	border: 3px solid gray;
+}
+	#main-react .header{
+		height: 50px;
+		width: 100%;
+		background: #cc4141;
+		overflow: hidden;
+	}
+		#main-react .header .left,
+		#main-react .header .right{
+			width: 30px;
+			color: white;
+			font-size: 22px;
+			text-align: center;
+			margin-top: 14px;
+			cursor: pointer;
+			line-height: 22px;
+		}
+		#main-react .header .title{
+			width: 290px;
+			float: left;
+			text-align: center;
+			color: white;
+		}
+			#main-react .header .title h1{
+				margin: 5px 0px;
+				font-size: 18px;
+			}
+			#main-react .header .title h3{
+				margin: 0px;
+				font-size: 12px;
+			}
+
+	#main-react .body{
+		margin: 20px;
+	}
+		#main-react .body div.left{
+			width: 237px;
+			height: 331px;
+			overflow: hidden;
+		}
+			#main-react .body svg{
+				width: 237px;
+				height: 331px;
+			}
+				#main-react .body svg path{
+					cursor: pointer;
+				}
+		#main-react .right-side{
+			float: right;
+			width: 63px;
+			height: 331px;
+			vertical-align: middle;
+		}
+			#main-react .right-side button{
+				display: block;
+				background: white;
+				border: 1px solid gray;
+				width: 30px;
+				height: 30px;
+				border-radius: 15px;
+				cursor: pointer;
+				margin-bottom: 10px;
+				margin-left: 25px;
+			}
+			#main-react .right-side button:first-child{
+				margin-top: 130px; /*(331 - (30+30+10))/2*/
+			}
+
+	#main-react .footer{
+		margin: 0 20px 20px;
+	}
+		#main-react .footer ul{
+			margin: 0px;
+			list-style-type: none;
+			padding: 0px;
+			overflow: hidden;
+		}
+			#main-react .footer li{
+				margin-bottom: 15px;
+				color: gray;
+				font-weight: bold;
+				font-size: 16px;
+			}
+				#main-react .footer li span{
+
+				}
+				#main-react .footer li button{
+					background: none;
+					border: none;
+					cursor: pointer;
+					float: right;
+				}
+		#main-react .footer > div{
+			margin-top: 10px;
+		}
+			#main-react .footer div button{
+				width: 100%;
+				height: 30px;
+				background: #F2C947;
+				color: gray;
+				text-align: center;
+				border-radius: 15px;
+				cursor: pointer;
+				border: none;
+				font-weight: bold;
+			}
